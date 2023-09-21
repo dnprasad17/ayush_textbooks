@@ -1,4 +1,3 @@
-import 'package:ayush_textbook/P5.dart';
 import 'package:flutter/material.dart';
 
 class P2 extends StatelessWidget {
@@ -20,7 +19,7 @@ class P2 extends StatelessWidget {
               IntrinsicWidth(
                 child: ElevatedButton(
                   onPressed: () {
-                    Navigator.pushNamed(context, 'P5');
+                    // Add your onPressed logic here
                   },
                   style: ElevatedButton.styleFrom(
                     primary: Colors.blue, // Background color
