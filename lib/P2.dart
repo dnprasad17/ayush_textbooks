@@ -19,7 +19,7 @@ class P2 extends StatelessWidget {
               IntrinsicWidth(
                 child: ElevatedButton(
                   onPressed: () {
-                    // Add your onPressed logic here
+                    Navigator.pushNamed(context, 'P5');
                   },
                   style: ElevatedButton.styleFrom(
                     primary: Colors.blue, // Background color
@@ -42,7 +42,7 @@ class P2 extends StatelessWidget {
               IntrinsicWidth(
                 child: ElevatedButton(
                   onPressed: () {
-                    // Add your onPressed logic here
+
                   },
                   style: ElevatedButton.styleFrom(
                     primary: Colors.blue, // Background color
