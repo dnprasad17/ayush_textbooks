@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class P1 extends StatelessWidget {
   const P1({Key? key});
@@ -16,6 +17,8 @@ class P1 extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Text('Select Course : ', style: GoogleFonts.openSans(fontSize: 20),),
+              SizedBox(height: 30,),
               ElevatedButton(
                 onPressed: () {
                   Navigator.pushNamed(context, 'P2');
@@ -99,6 +102,7 @@ class P1 extends StatelessWidget {
                   ],
                 ),
               ),
+
             ],
           ),
         ),
